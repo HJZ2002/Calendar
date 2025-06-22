@@ -6,13 +6,13 @@ from threading import Timer
 class CalendarClass:
     @staticmethod
     def main():
-        # Create a datetime instance for June 1, 2025
+        # Create a datetime instance 
         calendar_date = datetime(2025, 6, 1)
 
-        # Get the day of the week (Monday is 0 and Sunday is 6)
+        # Get the day of the week (Sample Monday till Sunday)
         day_of_week = calendar_date.weekday()
 
-        # Print the day of the week
+       
         print(f"Day of the week for JUNE 2025: {day_of_week + 1}")  # +1 to match Java's Calendar where Sunday=1
 
         # Function to print current time and date information
